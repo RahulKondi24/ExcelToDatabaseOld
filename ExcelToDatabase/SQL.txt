@@ -1,0 +1,19 @@
+﻿CREATE TABLE SalaryDetails (
+    Id INT PRIMARY KEY IDENTITY(1, 1),
+    EmployeeCode VARCHAR(50),
+    Leaves VARCHAR(50),
+    Gross VARCHAR(50),
+    WorkingDays VARCHAR(50),
+    Salary VARCHAR(50),
+    EarnedBasic VARCHAR(50),
+    HRA VARCHAR(50),
+    SpecialAllowance VARCHAR(50),
+    PT VARCHAR(50),
+    IT_TDS VARCHAR(50),
+    PF VARCHAR(50),
+    Advance VARCHAR(50),
+    CompanyPF VARCHAR(50),
+    NetAmount VARCHAR(50)
+);
+
+Select * From SalaryDetails;
